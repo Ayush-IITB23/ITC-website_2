@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITC Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Your CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">ITC</div>
+    <ul class="nav-links">
+        <li><a href="index.html" style="color: #000505; font-size: 20px;">Home</a></li>
+        <li><a href="about.html" style="color: #000505; font-size: 20px;">About</a></li>
+        <li><a href="events.html" style="color: #000505; font-size: 20px;">Events</a></li>
+        <li><a href="team.html" style="color: #000505; font-size: 20px;">Meet The Team</a></li>
+        <li><a href="contact.html" style="color: #000505; font-size: 20px;">Contact</a></li>
+    </ul>
+</nav>
+<section class="contact-section fade-in">
+    <h1 style=" color: aliceblue;">Contact Us</h1>
+
+    <form id="contactForm" class="contact-form" action="https://formspree.io/f/xwvwlyyz" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+    </form>
+
+    <p id="formMessage"></p>
+</section>
+
+<footer>
+    <p>© 2026 Institute Technical Council, IIT Bombay</p>
+</footer>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
