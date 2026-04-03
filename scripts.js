@@ -1,4 +1,4 @@
-// Contact Form Submit Message
+
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("contactForm");
     const msg = document.getElementById("formMessage");
